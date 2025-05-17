@@ -1,0 +1,43 @@
+{
+  "name": "clinica-dermatologica-web",
+  "version": "1.0.0",
+  "description": "Sistema web para gestión de citas médicas en una clínica dermatológica. Incluye agendamiento, calendario interactivo y CRUD de pacientes.",
+  "keywords": [
+    "vite",
+    "tailwindcss",
+    "dermatologia",
+    "agenda",
+    "calendario",
+    "citas"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuusuario/clinica-dermatologica-web"
+  },
+  "author": {
+    "name": "Gustavo Montoya,Jeronimo Giraldo,Jorge Manuel Valle,Santiago Cardona",
+    "email": "jerochogg@gmail.com",
+    "url": "https://github.com/llll-j3r0-llll"
+  },
+  "license": "BSD 3-Clause License",
+  "homepage": "https://github.com/tuusuario/clinica-dermatologica-web/blob/main/README.md",
+  "type": "module",
+  "engines": {
+    "node": ">=20",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "path": "0.12.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.0.8",
+    "vite": "6.1.1",
+    "tailwindcss": "4.0.8",
+    "autoprefixer": "10.4.20"
+  }
+}

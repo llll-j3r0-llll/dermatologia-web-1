@@ -1,0 +1,339 @@
+:root {
+    --primary-color: #1e88e5;
+    --secondary-color: #1565c0;
+    --accent-color: #ff6f00;
+    --light-color: #ffffff;
+    --dark-color: #333333;
+    --background-color: #f4f7f6;
+    --font-family: 'Arial', sans-serif;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--dark-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* MENÚ */
+/* Estilos del menú */
+.menu {
+    display: flex;
+    justify-content: center; /* Centrar el menú */
+    padding: 20px;
+    width: 100%;
+    border: 2px solid var(--primary-color); /* Recuadro más marcado */
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo más suave */
+  }
+  
+  /* Estilos de la lista del menú */
+  .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Espacio entre los ítems */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos de los enlaces en el menú */
+  .menu-list li a {
+    text-decoration: none;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif; /* Tipografía diferente */
+    font-size: 16px; /* Tamaño de la tipografía */
+  }
+  
+  /* Estilo para el hover de los enlaces */
+  .menu-list li a:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+  }
+  
+  
+  /* HEADER */
+  .header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  
+  .centered-title {
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* BOTÓN CAMBIAR FORMULARIO */
+  .toggle-form-button {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .toggle-form-button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+  }
+  
+  /* FORMULARIO */
+  .appointment-form {
+    background-color: var(--light-color);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .appointment-form h2 {
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+  
+  .appointment-form .input-group {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--dark-color);
+    font-weight: bold;
+  }
+  
+  .appointment-form input,
+  .appointment-form select,
+  .appointment-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .appointment-form input:focus,
+  .appointment-form select:focus,
+  .appointment-form textarea:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 8px rgba(255, 111, 0, 0.4);
+    outline: none;
+  }
+  
+  .appointment-form button {
+    background-color: var(--accent-color);
+    color: var(--light-color);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 10px;
+  }
+  
+  .appointment-form button:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+  }
+  
+  /* CALENDARIO */
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  .calendar-day {
+    padding: 20px;
+    background-color: var(--light-color);
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .calendar-day:hover {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    transform: scale(1.05);
+  }
+  
+  /* FOOTER */
+  .footer {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer .footer-content h3 {
+    font-size: 2rem;
+  }
+  
+  .footer .footer-bottom p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #d1d1d1;
+  }
+  
+  /* OTROS COMPONENTES */
+  .newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #81c784;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .newsletter form {
+    display: flex;
+    width: 100%;
+  }
+  
+  input[type="email"] {
+    padding: 8px;
+    border: 1px solid #81c784;
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background-color: #f7efef;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .close {
+    float: right;
+    font-size: 18px;
+    cursor: pointer;
+    color: var(--dark-color);
+  }
+  
+  .close:hover {
+    color: #888;
+  }
+  
+  .faq-item {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e8f5e9;
+    transition: background-color 0.3s;
+  }
+  
+  .faq-item:hover {
+    background-color: var(--light-color);
+  }
+  
+  .faq-answer {
+    display: none;
+    padding-top: 5px;
+    color: var(--primary-color);
+  }
+  
+  .taco li {
+    cursor: pointer;
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.3s;
+  }
+  
+  .taco li:hover {
+    background-color: #e0f7fa;
+  }
+  
+  .team-member h3 {
+    margin: 0;
+    color: var(--primary-color);
+  }
+  
+  .team-member p {
+    margin: 5px 0;
+    color: #616161;
+  }
+  
+  .jero article {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+  }
+  
+  .jero article h3 {
+    color: var(--primary-color);
+  }
+  
+  .jero article a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .jero article a:hover {
+    text-decoration: underline;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
