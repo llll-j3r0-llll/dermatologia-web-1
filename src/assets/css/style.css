@@ -43,6 +43,15 @@
     margin: 0;
     padding: 0;
   }
+  /*Cambio el css de imagen que se integra*/
+  .imagen-nosotros {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
   
   /* Estilos de los enlaces en el menú */
   .menu-list li a {
