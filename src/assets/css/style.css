@@ -28,160 +28,158 @@ body {
 }
 
 .menu {
-    display: flex;
-    justify-content: center; /* Centrar el menú */
-    padding: 20px;
-    width: 100%;
-    border: 2px solid var(--primary-color); /* Recuadro más marcado */
-    border-radius: 12px;
-    background-color: rgba(255, 255, 255, 0.9); /* Fondo más suave */
-  }
-  
-  /* Estilos de la lista del menú */
-  .menu-list {
-    list-style: none;
-    display: flex;
-    gap: 30px; /* Espacio entre los ítems */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos de los enlaces en el menú */
-  .menu-list li a {
-    text-decoration: none;
-    color: var(--light-color);
-    background-color: var(--primary-color);
-    padding: 12px 24px;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif; /* Tipografía diferente */
-    font-size: 16px; /* Tamaño de la tipografía */
-  }
-  
-  /* Estilo para el hover de los enlaces */
-  .menu-list li a:hover {
-    background-color: var(--secondary-color);
-    transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
-  }
-  
-  
-  /* HEADER */
-  .header {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    background-color: var(--primary-color);
-    color: var(--light-color);
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-  }
-  
-  .header p {
-    font-size: 1.5rem;
-    font-weight: 300;
-  }
-  
-  .centered-title {
-    text-align: center;
-    color: var(--primary-color);
-    font-size: 2rem;
-    margin-bottom: 20px;
-  }
-  
-  /* BOTÓN CAMBIAR FORMULARIO */
-  .toggle-form-button {
-    background-color: var(--accent-color);
-    color: var(--light-color);
-    padding: 12px 24px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-  }
-  
-  .toggle-form-button:hover {
-    background-color: var(--secondary-color);
-    transform: scale(1.05);
-  }
-  
-  /* FORMULARIO */
-  .appointment-form {
-    background-color: var(--light-color);
-    padding: 25px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    width: 90%;
-    max-width: 500px;
-  }
-  
-  .appointment-form h2 {
-    color: var(--dark-color);
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-  }
-  
-  .appointment-form .input-group {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  
-  .appointment-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--dark-color);
-    font-weight: bold;
-  }
-  
-  .appointment-form input,
-  .appointment-form select,
-  .appointment-form textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-    font-size: 1rem;
-    background-color: #f9f9f9;
-    transition: border-color 0.3s, box-shadow 0.3s;
-  }
-  
-  .appointment-form input:focus,
-  .appointment-form select:focus,
-  .appointment-form textarea:focus {
-    border-color: var(--accent-color);
-    box-shadow: 0 0 8px rgba(255, 111, 0, 0.4);
-    outline: none;
-  }
-  
-  .appointment-form button {
-    background-color: var(--accent-color);
-    color: var(--light-color);
-    padding: 12px 25px;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
-    margin-top: 10px;
-  }
-  
-  .appointment-form button:hover {
-    background-color: var(--secondary-color);
-    transform: scale(1.05);
-  }
-  
-  /* CALENDARIO */
-  .calendar-grid {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #1d3557;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 0.5em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #d9e6f2;
+  color:#1d3557;
+}
+
+.main-content {
+  margin-left: 240px;
+  padding: 2em;
+  width: 100%;
+}
+
+.hero {
+  text-align: center;
+  padding: 3em 1em;
+  background-color: #e8f0fa;
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+
+#slides img {
+  width: 11.041%;
+  height:360px; /* o la altura que quieras */
+  border-radius: 10px;
+
+}
+
+.recuadro-texto {
+
+  border-radius: 15px;              /* Esquinas redondeadas */
+  padding: 30px 40px;
+  max-width: 1250px;
+  margin: 30px auto;
+  background-color: #f0f4f8;        /* Fondo claro */
+}
+
+.recuadro-texto h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  color: #1d3557;
+  font-size: 28px;
+}
+
+.recuadro-texto p {
+  font-family: Arial, sans-serif;
+  color: #444;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.nuestro-equipo {
+  padding: 40px 20px;
+  background-color: #f0f4f8;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.nuestro-equipo h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1d3557;
+}
+
+.equipo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.doctor-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  text-align: center;
+}
+
+.doctor-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.doctor-card h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+.doctor-card p {
+  font-size: 16px;
+  color: #555;
+  margin: 5px 0;
+}
+
+.imagen-equipo {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.imagen-equipo img {
+  max-width: 40%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.info-equipo {
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 20px 30px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  font-size: 18px;
+  color: #444;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.servicios-solicitados {
     margin-top: 30px;
   padding: 40px 20px;
   background-color: #e9f2f9;
