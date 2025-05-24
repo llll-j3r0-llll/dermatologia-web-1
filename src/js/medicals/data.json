@@ -1,14 +1,39 @@
 [
     {
-        "image": "image",
-        "name":"Dr Perez",
+        "image": "image medico1",
+        "name":"Dr juan Perez",
         "tecnical":"Dermatologo",
-        "description": "..."
+        "description": "Especialista en acné y tratamientos láser."
     },
     {
-        "image": "image",
-        "name":"Dr Perez",
-        "tecnical":"Dermatologo",
-        "description": "..."
+        "image": "image medico2 ",
+        "name":"Dra. Ana Gómez",
+        "tecnical":"Cirujana Plástica",
+        "description": "Experta en rejuvenecimiento facial."
+    },
+     {
+        "image": "image medico3",
+        "name":"Dr. Carlos Ruiz",
+        "tecnical":"Dermatólogo Pediátrico",
+        "description": "..Atiende a niños y adolescentes."
+    },
+     {
+        "image": "image medico4",
+        "name":"Dra. Laura Díaz",
+        "tecnical":"Oncóloga Dermatológica",
+        "description": "Diagnóstico de cáncer de piel."
+    },
+     {
+        "image": "image medico5",
+        "name":"Dr. Felipe Torres",
+        "tecnical":"Cosmetólogo Clínico",
+        "description": "Tratamientos estéticos no invasivos."
+    },
+     {
+        "image": "image medico6",
+        "name":"Dra. Natalia Herrera",
+        "tecnical":"Especialista en Alopecia",
+        "description": "Tratamiento de la caída de cabello."
     }
+
 ]
