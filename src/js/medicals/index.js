@@ -59,4 +59,4 @@ async function medicals() {
 }
 
 // Initialize when the DOM is ready
-document.addEventListener('DOMContentLoaded', renderArticles);
+document.addEventListener('DOMContentLoaded', medicals);
