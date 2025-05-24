@@ -1,247 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title><main></main></title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clínica Dermatológica</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-<body class="body">
-    <header class="header">
-        <h1>clinica dematologica</h1>
-        <p>Especialistas en el cuidado de la piel</p>
-    </header>
+<body>
 
-    
-<nav class="navbar">
+  <div class="sidebar">
     <div class="logo">
-        
+      <img src="assets/css/imagenes/logo.jpg" alt="Logo Clínica" />
     </div>
-    <div class="menu">
-        <a href="index.html">Inicio</a>
-        <a href="nosotros.html">Nosotros</a>
-        <a href="servicios.html">Servicios</a>
-        <a href="citas.html">Citas</a>
-        <a href="contacto.html">Contacto</a>
-    </div>
-</nav>
+    <nav class="menu">
+      <a href="#inicio">Inicio</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#ubicacion">Ubicacion</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
 
+  <div class="main-content">
+    <section class="hero">
+      <h1>BIENVENIDO A GERMATOLOGY CENTER</h1>
+      <p>Donde una piel sana es nuestro objetivo.</p>
+    </section>
 
-    <main>
-        <section class="avion">
-            <h2 class="centered-title">Agendar Cita</h2>
-            <button id="toggle-form-button" class="toggle-form-button">Agenda tu cita aquí</button>
-            <form id="appointment-form" class="appointment-form" style="display: none;">
-                <div class="input-group">
-                    <label for="user">Nombre del Paciente:</label>
-                    <input type="text" id="user" name="user" placeholder="Nombre del paciente" required>
-                </div>
-                <div class="input-group">
-                    <label for="doctor">Médico:</label>
-                    <select id="doctor" name="doctor" required>
-                        <option value="">Seleccionar...</option>
-                        <option value="Dr. Juan Pérez">Dr. Juan Pérez</option>
-                        <option value="Dra. Ana López">Dra. Ana López</option>
-                        <option value="Dra. Elena García">Dra. Elena García</option>
-                        <option value="Dr. Luis Martínez">Dr. Luis Martínez</option>
-                    </select>
-                </div>
-                <div class="input-group">
-                    <label for="date">Fecha:</label>
-                    <input type="date" id="date" name="date" required>
-                </div>
-                <div class="input-group">
-                    <label for="time">Hora:</label>
-                    <input type="time" id="time" name="time" required>
-                </div>
-                <button type="submit">Agendar Cita</button>
-            </form>
-        </section>
+<div class="relative w-full max-w-4xl mx-auto overflow-hidden shadow-lg" id="carrusel">
+  <div class="flex transition-transform duration-700 ease-in-out" id="slides" style="width: 300%;">
+    <img src="assets/css/imagenes/carrusel 9.webp"  class="w-full h-96 object-cover rounded-2xl" alt="Imagen 1" />
+    <img src="assets/css/imagenes/carrusel 1.webp"  class="w-full h-96 object-cover rounded-2xl" alt="Imagen 2" />
+    <img src="assets/css/imagenes/carrusel 6.avif"  class="w-full h-96 object-cover rounded-2xl" alt="Imagen 3" />
+  </div>
+</div>
 
-        <section class="calendar hero">
-            <h2>Calendario de Citas</h2>
-            <div class="calendar-grid" id="calendar-grid">
+<div class="recuadro-texto">
+  <h2>Dermatology center </h2>
+  <p>Dermatologic Center es un centro especializado en salud y estética de la piel, donde la medicina, la tecnología y la experiencia se unen para ofrecer soluciones dermatológicas reales y personalizadas.
 
-            </div>
-        </section>
+  Nuestro propósito es ser el referente en dermatología clínica, estética y quirúrgica, brindando atención de excelencia, humana y confiable. Cada piel cuenta una historia, y estamos aquí para cuidarla, protegerla y transformarla.</p>
+</div>
 
-        <section class="servicios taco">
-            <h2>Nuestros Servicios</h2>
-            <ul>
-                <li>Consulta Dermatológica - Examen completo de la piel para detectar anomalías.</li>
-                <li>Tratamiento para Acné - Tratamientos efectivos para reducir el acné.</li>
-                <li>Rejuvenecimiento Facial - Procedimientos para mejorar la apariencia de la piel.</li>
-                <li>Cuidado de Lunares - Revisión y eliminación de lunares peligrosos.</li>
-                <li>Prevención de Cáncer de Piel - Detección temprana y prevención del cáncer de piel.</li>
-            </ul>
-            <p id="info-text">Pasa el cursor sobre un servicio para ver más información.</p>
-        </section>
+<section class="nuestro-equipo">
+  <h2>Nuestro Equipo</h2>
 
-        <section class="team carro">
-            <h2>Nuestro Equipo Médico</h2>
-            <div class="team-member">
-                <img src="assets/css/imagenes/descarga.jpg" width="300" height="200" alt="Dr. Juan Pérez">
-                <h3>Dr. Juan Pérez</h3>
-                <p>Dermatólogo especializado en el tratamiento del acné y el rejuvenecimiento facial</p>
-                <h4>Citas Asignadas</h4>
-                <ul id="appointments-juan"></ul>
-            </div>
-            <div class="team-member">
-                <img src="assets/css/imagenes/hermosa-joven-doctora-mirando-camara-oficina_1301-7807.avif" width="325" height="200" alt="Dra. Ana López">
-                <h3>Dra. Ana López</h3>
-                <p>Especialista en cáncer de piel y cuidado de lunares, se enfoca en la detección temprana</p>
-                <h4>Citas Asignadas</h4>
-                <ul id="appointments-ana"></ul>
-            </div>
-            <div class="team-member">
-                <img src="assets/css/imagenes/images.jpg" width="325" height="200" alt="Dra. Elena García">
-                <h3>Dra. J  uan Luis Hermes</h3>
-                <p>Dermatóloga especializada en el cuidado de la piel y el rejuvenecimiento facial</p>
-                <h4>Citas Asignadas</h4>
-                <ul id="appointments-elena"></ul>
-            </div>
-            <div class="team-member">
-                <img src="assets/css/imagenes/Montserrat.webp" width="325" height="200" alt="Dr. Luis Martínez">
-                <h3>Dra. Elena García</h3>
-                <p>Dermatólogo especializado en el tratamiento del acné y el rejuvenecimiento facial</p>
-                <h4>Citas Asignadas</h4>
-                <ul id="appointments-luis"></ul>
-            </div>
-        </section>
+  <div class="equipo-grid">
 
-        <section class="newsletter">
-            <h2>Suscríbete a nuestro boletín</h2>
-            <p>Recibe consejos de salud y novedades en tratamientos dermatológicos.</p>
-            <form action="subscribe.php" method="post" class="newsletter-form">
-                <input type="email" placeholder="Correo electrónico" required>
-                <button type="submit">Suscribirse</button>
-            </form>
-        </section>
-    </main>
-
-    <div id="modal" class="modal" style="display: none;">
-        <div class="modal-content">
-            <h2>Cita Agendada</h2>
-            <p>Tu cita ha sido registrada exitosamente.</p>
-        </div>
+    <div class="doctor-card">
+      <img src="img/doctor1.jpg" alt="Doctor 1">
+      <h3>Dr. Juan Pérez</h3>
+      <p>Dermatólogo</p>
+      <p>Especialista en acné y tratamientos láser.</p>
     </div>
 
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section about">
-                <h3>Clínica Dermatológica Lima</h3>
-                <p>Especialistas en el cuidado de la piel. Ofrecemos servicios de dermatología avanzada y tratamientos personalizados para mejorar tu salud y bienestar.</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>©️ 2024 Clínica de Dermatología Lima. Todos los derechos reservados.</p>
-        </div>
-    </footer>
+    <div class="doctor-card">
+      <img src="img/doctor2.jpg" alt="Doctor 2">
+      <h3>Dra. Ana Gómez</h3>
+      <p>Cirujana Plástica</p>
+      <p>Experta en rejuvenecimiento facial.</p>
+    </div>
 
-    <script>
-        let appointments = [];
+    <div class="doctor-card">
+      <img src="img/doctor3.jpg" alt="Doctor 3">
+      <h3>Dr. Carlos Ruiz</h3>
+      <p>Dermatólogo Pediátrico</p>
+      <p>Atiende a niños y adolescentes.</p>
+    </div>
 
-        function updateAppointmentsList() {
-            const doctors = {
-                "Dr. Juan Pérez": document.getElementById("appointments-juan"),
-                "Dra. Ana López": document.getElementById("appointments-ana"),
-                "Dra. Elena García": document.getElementById("appointments-elena"),
-                "Dr. Luis Martínez": document.getElementById("appointments-luis")
-            };
+    <div class="doctor-card">
+      <img src="img/doctor4.jpg" alt="Doctor 4">
+      <h3>Dra. Laura Díaz</h3>
+      <p>Oncóloga Dermatológica</p>
+      <p>Diagnóstico de cáncer de piel.</p>
+    </div>
 
-            for (let doctor in doctors) {
-                doctors[doctor].innerHTML = '';
-            }
+    <div class="doctor-card">
+      <img src="img/doctor5.jpg" alt="Doctor 5">
+      <h3>Dr. Felipe Torres</h3>
+      <p>Cosmetólogo Clínico</p>
+      <p>Tratamientos estéticos no invasivos.</p>
+    </div>
 
-            appointments.forEach(appointment => {
-                const li = document.createElement('li');
-                li.textContent = `${appointment.user} - ${appointment.date} ${appointment.time}`;
+    <div class="doctor-card">
+      <img src="img/doctor6.jpg" alt="Doctor 6">
+      <h3>Dra. Natalia Herrera</h3>
+      <p>Especialista en Alopecia</p>
+      <p>Tratamiento de la caída de cabello.</p>
+    </div>
 
-                const editButton = document.createElement('button');
-                editButton.textContent = 'Editar';
-                editButton.onclick = function() {
-                    editAppointment(appointment.id);
-                };
+  </div>
 
-                const deleteButton = document.createElement('button');
-                deleteButton.textContent = 'Eliminar';
-                deleteButton.onclick = function() {
-                    deleteAppointment(appointment.id);
-                };
+  <!-- Imagen redondeada -->
+  <div class="imagen-equipo">
+    <img src="assets/css/imagenes/equipo de trabajo.webp" alt="Equipo completo">
+  </div>
 
-                li.appendChild(editButton);
-                li.appendChild(deleteButton);
+  <!-- Texto debajo de la imagen -->
+  <div class="info-equipo">
+    <p>Contamos con un equipo de profesionales altamente capacitados, comprometidos con la salud y el bienestar de nuestros pacientes. Nuestra experiencia, atención humana y tecnología avanzada nos permiten ofrecer diagnósticos precisos y tratamientos eficaces en dermatología clínica y estética.</p>
+  </div>
+</section>
 
-                doctors[appointment.doctor].appendChild(li);
-            });
+<section class="servicios-solicitados">
+  <h2>Nuestros Servicios Más Solicitados</h2>
 
-            updateCalendar();
-        }
+  <div class="servicios-grid">
 
-        function updateCalendar() {
-            const calendarGrid = document.getElementById('calendar-grid');
-            calendarGrid.innerHTML = '';
+    <div class="servicio-card">
+      <img src="img/laser.jpg" alt="Láser dermatológico">
+      <h3>Tratamiento Láser</h3>
+      <p>Eliminación de manchas, cicatrices y acné.</p>
+      <blockquote>"Mi piel mejoró muchísimo después del tratamiento. ¡Gracias por la atención!" – Camila R.</blockquote>
+    </div>
 
-            const daysInMonth = new Date(new Date().getFullYear(), new Date().getMonth() + 1, 0).getDate();
+    <div class="servicio-card">
+      <img src="img/facial.jpg" alt="Limpieza facial">
+      <h3>Limpieza Facial Profunda</h3>
+      <p>Ideal para eliminar impurezas y revitalizar la piel.</p>
+      <blockquote>"Nunca había sentido mi cara tan limpia y suave. ¡Recomendado!" – Andrés M.</blockquote>
+    </div>
 
-            for (let day = 1; day <= daysInMonth; day++) {
-                const dayElement = document.createElement('div');
-                dayElement.className = 'calendar-day';
-                dayElement.textContent = day;
+    <div class="servicio-card">
+      <img src="img/cabello.jpg" alt="Tratamiento capilar">
+      <h3>Tratamiento Capilar</h3>
+      <p>Recuperación del cuero cabelludo y fortalecimiento capilar.</p>
+      <blockquote>"Recuperé la confianza al ver que mi cabello volvía a crecer." – Laura S.</blockquote>
+    </div>
 
-                appointments.forEach(appointment => {
-                    const appointmentDate = new Date(appointment.date);
-                    if (appointmentDate.getDate() === day && appointmentDate.getMonth() === new Date().getMonth()) {
-                        dayElement.style.backgroundColor = '#c8e6c9';
-                        const appointmentInfo = document.createElement('div');
-                        appointmentInfo.className = 'appointment-info';
-                        appointmentInfo.textContent = `${appointment.doctor} - ${appointment.time}`;
-                        dayElement.appendChild(appointmentInfo);
-                    }
-                });
+  </div>
+</section>
 
-                calendarGrid.appendChild(dayElement);
-            }
-        }
+<footer class="footer">
+  <div class="footer-container">
 
-        document.getElementById('appointment-form').addEventListener('submit', function(event) {
-            event.preventDefault();
+    <div class="footer-info">
+      <h3>Clínica Dermosalud</h3>
+      <p>Estamos comprometidos con tu bienestar dermatológico. Visítanos o contáctanos para más información.</p>
+      <p>📍 Medellín, Colombia<br>📞 +57 301 456 7890<br>✉️ contacto@dermosalud.com</p>
+    </div>
 
-            const user = document.getElementById('user').value;
-            const doctor = document.getElementById('doctor').value;
-            const time = document.getElementById('time').value;
-            const date = document.getElementById('date').value;
+    <div class="footer-links">
+      <h4>Enlaces útiles</h4>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Equipo Médico</a></li>
+        <li><a href="#">Agendar Cita</a></li>
+      </ul>
+    </div>
 
-            const appointment = {
-                id: Date.now(),
-                user,
-                doctor,
-                time,
-                date
-            };
+    <div class="footer-social">
+      <h4>Síguenos</h4>
+      <div class="social-icons">
+        <a href="#"><img src="assets/css/imagenes/facebook.avif" alt="Facebook"></a>
+        <a href="#"><img src="assets/css/imagenes/instagram.avif" alt="Instagram"></a>
+        <a href="#"><img src="assets/css/imagenes/whasapp.avif" alt="WhatsApp"></a>
+        <a href="#"><img src="assets/css/imagenes/tik tok.png" alt="TikTok"></a>
+      </div>
+    </div>
 
-            appointments.push(appointment);
-            updateAppointmentsList();
+  </div>
 
-            document.getElementById('appointment-form').reset();
-            document.getElementById('modal').style.display = 'block';
-            setTimeout(() => {
-                document.getElementById('modal').style.display = 'none';
-            }, 3000);
-        });
+  <div class="footer-bottom">
+    <p>&copy; 2025 Clínica Dermosalud. Todos los derechos reservados.</p>
+  </div>
+</footer>
 
-        document.getElementById('toggle-form-button').addEventListener('click', function() {
-            const form = document.getElementById('appointment-form');
-            if (form.style.display === 'none') {
-                form.style.display = 'block';
-            } else {
-                form.style.display = 'none';
-            }
-        });
 
-        document.addEventListener('DOMContentLoaded', function() {
-            updateCalendar();
-        });
-    </script>
 </body>
 </html>
