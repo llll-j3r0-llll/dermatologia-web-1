@@ -70,3 +70,168 @@ body {
 .hero p {
   font-size: 1.2em;
 }
+/* SIDEBAR FIJA A LA IZQUIERDA */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  z-index: 10;
+}
+
+/* CONTENEDOR PRINCIPAL AJUSTADO A LA DERECHA DEL MENÚ */
+.contenido-principal {
+  margin-left: 250px; /* para dejar espacio al menú */
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centrado horizontal */
+  box-sizing: border-box;
+}
+
+/* BANER */
+
+.hero {
+  width: 100%;
+  height: 400px; /* Puedes ajustarlo a tu gusto */
+  position: relative;
+  overflow: hidden;
+}
+
+.imagen-banner {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius:16px;
+  
+}
+
+.hero-texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-texto h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero-texto p {
+  font-size: 1.2rem;
+}
+
+/* NUESTRA HISTORIA con estilo visual azul claro */
+.historia {
+  max-width: 1000px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 40px 20px;
+  background-color: #e6f0ff; /* fondo azul claro */
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+/* POR QUÉ ELEGIRNOS */
+.porque-elegirnos {
+  max-width: 1000px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #e6f0ff; /* Azul claro */
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+
+.porque-elegirnos h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #2b2b2b;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 15px;
+  color: #1a1a1a;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+/* nuestro Equipo */
+.nuestro-equipo{
+padding: 40px 20px;
+background-color: #f0f4f8;
+text-align: center;
+border-radius: 15px;
+
+}
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+
