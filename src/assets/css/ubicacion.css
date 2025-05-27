@@ -72,14 +72,6 @@ body {
 }
 
 
-#slides img {
-  width: 402px ;
-  margin-bottom: 30px;
-  height:360px; /* o la altura que quieras */
-  border-radius: 10px;
-
-} 
-
 .Direcciones h2 {
   font-size: 32px;
   margin-bottom: 30px;
@@ -132,6 +124,22 @@ body {
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
+
+.nuestros-sitios h2 {  
+  margin-top: 30px;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #1d3557;
+}
+
+#slides img {
+
+  width: 402px ;
+  margin-bottom: 30px;
+  height:360px; /* o la altura que quieras */
+  border-radius: 10px;
+
+} 
 
 .footer {
   background-color: #1a1a1a;
