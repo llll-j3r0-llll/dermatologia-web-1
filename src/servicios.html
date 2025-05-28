@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Clínica Dermatológica</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+ <link rel="stylesheet" href="assets/css/servicios.css">
 
 
 </head>
@@ -23,3 +22,123 @@
       <a href="agendar-cita.html">Agendar Cita</a>
     </nav>
   </div>
+
+
+
+  <!--Banner-->
+<header class="group relative h-64 md:h-96 bg-cover bg-center" style="background-image: url(./assets/css/imagenes-servicios/banner.jpg);">
+  <div class="absolute inset-0 bg-black bg-opacity-30 group-hover:bg-opacity-60 transition duration-300 ease-in-out flex items-center justify-center">
+    <h1 class="text-3xl md:text-5xl font-bold text-white text-center">Nuestros Servicios</h1>
+  </div>
+</header>
+
+    <section class="bg-gray-100 text-center py-10 px-4">
+    
+    <p class="max-w-3xl mx-auto text-lg text-gray-500">
+      En la Clínica puedes acceder a diferentes servicios para agilizar los procesos de diagnóstico y tratamiento.
+      Estos servicios están abiertos al público para pacientes particulares y algunos con pólizas de saluds.
+    </p>
+  </section>
+
+  
+
+  
+
+<section id="servicios" class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+  <!-- Servicio 1 -->
+  <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 ease-in-out hover:scale-105">
+    <img src="./assets/css/imagenes-servicios/acne.jpg" alt="Acné" class="w-full h-auto rounded mb-4">
+    <h3 class="text-xl font-bold mt-2">Tratamiento para Acné</h3>
+    <p class="text-gray-400">
+      En nuestro consultorio evaluamos tu tipo de piel y diseñamos un plan
+      clínico para controlar tu acné y evitar nuevas lesiones, con resultados visibles en los 2 primeros meses.
+    </p>
+  </div>
+
+  <!-- Servicio 2 -->
+  <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 ease-in-out hover:scale-105">
+    <img src="./assets/css/imagenes-servicios/dermatitis.jpg" alt="Dermatitis" class="w-full h-auto rounded mb-4">
+    <h3 class="text-xl font-bold mt-2">Tratamiento dermatitis atópica</h3>
+    <p class="text-gray-400">
+      Realizamos evaluación dermatológica personalizada, diseñamos un plan que incluye cuidados tópicos,
+      seguimiento continuo y orientación sobre hábitos saludables para la piel. Para controlar  brotes
+      y reducir el malestar. 
+    </p>
+  </div>
+
+  <!-- Servicio 3 -->
+  <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 ease-in-out hover:scale-105">
+    <img src="./assets/css/imagenes-servicios/antienvejecimiento.jpg" alt="anti-envejecimiento" class="w-full h-auto rounded mb-4">
+    <h3 class="text-xl font-bold mt-2">Tratamiento anti-envejecimiento</h3>
+    <p class="text-gray-400">
+      Revitaliza tu piel y restaura tu juventud, con la ayuda de tecnologías avanzadas como el Botox,
+      rellenos dérmicos y tratamientos con láser, eliminamos arrugas, líneas finas y manchas,
+      dejándote con una piel más firme, luminosa y rejuvenecida. 
+    </p>
+  </div>
+
+  <!-- Servicio 4 -->
+  <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 ease-in-out hover:scale-105">
+    <img src="./assets/css/imagenes-servicios/manchas.jpg" alt="Tratamiento de manchas y despigmentación" class="w-full h-auto rounded mb-4">
+    <h3 class="text-xl font-bold mt-2">Tratamiento de manchas y despigmentación</h3>
+    <p class="text-gray-400">
+      En nuestra clínica ofrecemos soluciones efectivas para reducir y eliminar manchas oscuras, hiperpigmentaciones
+       y problemas de despigmentación como el melasma. Utilizamos Peelings químicos y terapias con láser. 
+
+    </p>
+  </div>
+
+  <!-- Servicio 5 -->
+  <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 ease-in-out hover:scale-105">
+    <img src="./assets/css/imagenes-servicios/estetica.jpg" alt="Tratamiento estéticos" class="w-full h-auto rounded mb-4">
+    <h3 class="text-xl font-bold mt-2">Tratamiento estéticos</h3>
+    <p class="text-gray-400">
+     En nuestra clínica ofrecemos procedimientos dermatológicos estéticos seguros y efectivos para ayudarte a
+      lucir una piel más joven, fresca y radiante. Nuestros tratamientos incluyen: Toxina botulínica (Botox),
+      rellenos dérmicos y microdermoabrasión.
+    </p>
+  </div>
+
+  <!-- Servicio 6 -->
+
+ 
+
+  <div class="bg-white rounded-lg shadow-md p-4 transform transition duration-300 ease-in-out hover:scale-105">
+    <img src="./assets/css/imagenes-servicios/terapia capilar.jpg" alt="Terapia Capilar y manejo de alopecia" class="w-full h-auto rounded mb-4">
+    <h3 class="text-xl font-bold mt-2">Terapia Capilar</h3>
+    <p class="text-gray-400">
+      Nuestro tratamiento capilar está formulado para revitalizar el cuero cabelludo y promover el crecimiento
+       saludable del cabello de manera natural y eficaz. Utilizamos una combinación de extractos botánicos, 
+       nutrientes esenciales y tecnología avanzada.
+    </p>
+  </div>
+
+</section>
+
+
+
+
+
+
+  <script src="js/funciones.js"></script>
+  
+<!-- Sección de contacto -->
+<div class="bg-gray-100 py-10 px-4 flex flex-col items-center">
+  <button class="bg-sky-500 text-white px-6 py-2 rounded hover:bg-sky-600 transition mb-6">
+    AGENDA TU CITA
+  </button>
+
+  <div class="border-l-4 border-gray-400 pl-4 text-gray-600 italic max-w-md text-sm md:text-base">
+    <p>
+      Llámanos al <span class="not-italic font-medium text-gray-700">(+57) <u>604 123 4567</u></span><br>
+      <strong class="not-italic text-gray-500">Horario del Call Center:</strong><br>
+      <strong class="not-italic text-gray-500">Lunes a viernes:</strong> 8 am a 5 pm<br>
+      
+    </p>
+  </div>
+</div>
+
+
+</body>
+</html>
+
