@@ -2,15 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clínica Dermatológica</title>
-  <link rel="stylesheet" href="assets/css/style.css"/>
-
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda tu cita</title>
+  <link rel="stylesheet" href="assets/css/agendar citas.css" />
 </head>
 <body>
 
-  <div class="sidebar">
+    <div class="sidebar">
     <div class="logo">
       <img src="assets/css/images inicio/logo.jpg" alt="Logo Clínica" />
     </div>
@@ -20,6 +18,30 @@
       <a href="servicios.html">Servicios</a>
       <a href="ubicacion.html">Ubicacion</a>
       <a href="contacto.html">Contacto</a>
-      <a href="agendar-cita.html">Agendar Cita</a>
+      <a href="agendar citas.html">Agenda tu Cita</a>
     </nav>
   </div>
+
+  <section class="agenda-citas">
+    <h2>Agenda tu cita</h2>
+    <form id="form-cita">
+      <input type="text" id="nombre" placeholder="Nombre completo" />
+      <input type="date" id="fecha" />
+      <input type="time" id="hora" />
+      <select id="medico">
+        <option value="">Selecciona un médico</option>
+        <option value="Dra. Gómez">Dra. Gómez</option>
+        <option value="Dr. Pérez">Dr. Pérez</option>
+      </select>
+      <button type="submit">Agendar</button>
+    </form>
+
+<div class="citas-agendadas">
+    <h3>Tus citas agendadas</h3>
+    <ul id="lista-citas"></ul>
+  </div>
+</section>
+
+  <script src="js/mostrar citas.js"></script>
+</body>
+</html>
