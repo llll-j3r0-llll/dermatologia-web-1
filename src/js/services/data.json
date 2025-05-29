@@ -16,8 +16,36 @@
     "services": "tratamiento capilar",
     "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
     "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
-  }
-
+  },
+ {
+        "image": "imagen acne",
+        "services":"Tratamiento para Acné",
+        "description": "En nuestro consultorio evaluamos tu tipo de piel y diseñamos un plan clínico para controlar tu acné y evitar nuevas lesiones, con resultados visibles en los 2 primeros meses.."
+    },
+     {
+        "image": "imagen dermatitis",
+        "services":"Tratamiento dermatitis atópica",
+        "description": "Realizamos evaluación dermatológica personalizada, diseñamos un plan que incluye cuidados tópicos, seguimiento continuo y orientación sobre hábitos saludables para la piel. Para controlar brotes y reducir el malestar."
+    },
+     {
+        "image": "imagen antienvejecimiento",
+        "services":"Tratamiento anti-envejecimiento",
+        "description": "Revitaliza tu piel y restaura tu juventud, con la ayuda de tecnologías avanzadas como el Botox, rellenos dérmicos y tratamientos con láser, eliminamos arrugas, líneas finas y manchas, dejándote con una piel más firme, luminosa y rejuvenecida.."
+    },
+     {
+        "image": "imagen manchas",
+        "services":"Tratamiento de manchas y despigmentación",
+        "description": "En nuestra clínica ofrecemos soluciones efectivas para reducir y eliminar manchas oscuras, hiperpigmentaciones y problemas de despigmentación como el melasma. Utilizamos Peelings químicos y terapias con láser.."
+    },
+     {
+        "image": "imagen estetica",
+        "services":"Tratamiento estéticos",
+        "description": "En nuestra clínica ofrecemos procedimientos dermatológicos estéticos seguros y efectivos para ayudarte a lucir una piel más joven, fresca y radiante. Nuestros tratamientos incluyen: Toxina botulínica (Botox), rellenos dérmicos y microdermoabrasión.."
+    },
+     {
+        "image": "inagen terapia capilar",
+        "services":"Terapia Capilar",
+        "description": "Nuestro tratamiento capilar está formulado para revitalizar el cuero cabelludo y promover el crecimiento saludable del cabello de manera natural y eficaz. Utilizamos una combinación de extractos botánicos, nutrientes esenciales y tecnología avanzada.."
+    }
 ]
-
 
