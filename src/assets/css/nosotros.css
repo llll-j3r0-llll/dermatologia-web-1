@@ -5,10 +5,15 @@
 }
 
 body {
-  font-family: 'montserrat';
+  font-family: 'Segoe UI', sans-serif;
   background-color: #f9f9f9;
   color: #1d3557;
   display: flex;
+}
+
+/* Color global para títulos */
+h1, h2, h3 {
+  color: #00695c;
 }
 
 .sidebar {
@@ -21,7 +26,8 @@ body {
 }
 
 .logo img {
-  width: 100%;
+  margin: -5PX;
+  width: 200PX;
   height: auto;
   margin-bottom: 2em;
   border-radius: 8px;
@@ -45,7 +51,7 @@ body {
 
 .menu a:hover {
   background-color: #d9e6f2;
-  color:#1d3557;
+  color: #1d3557;
 }
 
 .main-content {
@@ -54,15 +60,6 @@ body {
   width: 100%;
 }
 
-/* Estilo global para títulos */
-h1{
-   color: #e8f0fa;
-}
- h2, h3 {
-  color: #00695c;
-}
-
-/* HERO */
 .hero {
   text-align: center;
   padding: 3em 1em;
@@ -79,19 +76,8 @@ h1{
 .hero p {
   font-size: 1.2em;
 }
-
 /* SIDEBAR FIJA A LA IZQUIERDA */
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100vh;
-  background-color: #f0f4f8;
-  padding: 20px;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
-  z-index: 10;
-}
+
 
 /* CONTENEDOR PRINCIPAL AJUSTADO A LA DERECHA DEL MENÚ */
 .contenido-principal {

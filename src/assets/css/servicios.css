@@ -11,6 +11,11 @@ body {
   display: flex;
 }
 
+/* Color global para títulos */
+h1, h2, h3 {
+  color: #00695c;
+}
+
 .sidebar {
   width: 220px;
   background-color: #ffffff;
@@ -21,7 +26,8 @@ body {
 }
 
 .logo img {
-  width: 100%;
+  margin: -5PX;
+  width: 200PX;
   height: auto;
   margin-bottom: 2em;
   border-radius: 8px;
@@ -45,11 +51,11 @@ body {
 
 .menu a:hover {
   background-color: #d9e6f2;
-  color:#1d3557;
+  color: #1d3557;
 }
 
 .main-content {
-  margin-left: 240px;
+  margin-left: 250px;
   padding: 2em;
   width: 100%;
 }
@@ -63,7 +69,6 @@ body {
 }
 
 .hero h1 {
-  font-weight: bold;
   font-size: 2em;
   margin-bottom: 0.5em;
 }
@@ -72,13 +77,7 @@ body {
   font-size: 1.2em;
 }
 /* Estilo general */
-.main-content {
-  padding: 2rem;
-  background-color: #f9f9f9;
-  font-family: 'Montserrat', sans-serif;
-  color: #333;
-  
-}
+
 
 /* Encabezado de la sección */
 .servicios h1 {

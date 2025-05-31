@@ -26,7 +26,8 @@ h1, h2, h3 {
 }
 
 .logo img {
-  width: 100%;
+  margin: -5PX;
+  width: 200PX;
   height: auto;
   margin-bottom: 2em;
   border-radius: 8px;
@@ -80,6 +81,7 @@ h1, h2, h3 {
   width: 402px;
   height: 360px;
   border-radius: 10px;
+  align-items: center;
 }
 
 .recuadro-texto {
