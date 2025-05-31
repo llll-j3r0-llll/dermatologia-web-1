@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'montserrat';
   background-color: #f9f9f9;
   color: #1d3557;
   display: flex;
@@ -54,6 +54,15 @@ body {
   width: 100%;
 }
 
+/* Estilo global para títulos */
+h1{
+   color: #e8f0fa;
+}
+ h2, h3 {
+  color: #00695c;
+}
+
+/* HERO */
 .hero {
   text-align: center;
   padding: 3em 1em;
@@ -144,7 +153,6 @@ body {
 .contenedor h2 {
   font-size: 2.2rem;
   margin-bottom: 40px;
-  color: #2b2b2b;
 }
 
 .titulo-equipo {
@@ -195,15 +203,12 @@ body {
 
 .card h3 {
   margin-top: 15px;
-  color: #1a1a1a;
 }
 
 .card p {
   color: #555;
   font-size: 0.95rem;
 }
-
-
 
 /* SECCIÓN QUIÉNES SOMOS */
 .quienes-somos {
@@ -217,7 +222,6 @@ body {
 
 .quienes-somos h2 {
   font-size: 2.2rem;
-  color: #2b2b2b;
   margin-bottom: 20px;
 }
 
@@ -251,7 +255,6 @@ body {
 
 .mision-vision .bloque h3 {
   font-size: 1.5rem;
-  color: #1a1a1a;
   margin-bottom: 15px;
 }
 
@@ -275,7 +278,6 @@ body {
 
 .valores h2 {
   font-size: 2.5rem;
-  color: #00796b;
   margin-bottom: 40px;
   font-weight: 600;
   border-bottom: 2px solid #b2dfdb;
@@ -307,7 +309,6 @@ body {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 121, 107, 0.15);
 }
-
 
 /* RESPONSIVO PARA MÓVILES */
 @media screen and (max-width: 768px) {

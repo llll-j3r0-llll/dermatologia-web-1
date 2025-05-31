@@ -11,6 +11,11 @@ body {
   display: flex;
 }
 
+/* Color global para títulos */
+h1, h2, h3 {
+  color: #00695c;
+}
+
 .sidebar {
   width: 220px;
   background-color: #ffffff;
@@ -45,7 +50,7 @@ body {
 
 .menu a:hover {
   background-color: #d9e6f2;
-  color:#1d3557;
+  color: #1d3557;
 }
 
 .main-content {
@@ -71,21 +76,18 @@ body {
   font-size: 1.2em;
 }
 
-
 #slides img {
   width: 402px;
-  height:360px; /* o la altura que quieras */
+  height: 360px;
   border-radius: 10px;
-
 }
 
 .recuadro-texto {
-
-  border-radius: 15px;              /* Esquinas redondeadas */
+  border-radius: 15px;
   padding: 30px 40px;
   max-width: 1250px;
   margin: 30px auto;
-  background-color: #f0f4f8;        /* Fondo claro */
+  background-color: #f0f4f8;
 }
 
 .recuadro-texto h2 {
@@ -94,7 +96,6 @@ body {
   margin-bottom: 20px;
   font-family: 'Segoe UI', sans-serif;
   font-weight: bold;
-  color: #1d3557;
   font-size: 28px;
 }
 
@@ -115,7 +116,6 @@ body {
 .nuestro-equipo h2 {
   font-size: 32px;
   margin-bottom: 30px;
-  color: #1d3557;
 }
 
 .equipo-grid {
@@ -145,7 +145,6 @@ body {
 .doctor-card h3 {
   margin: 10px 0 5px;
   font-size: 20px;
-  color: #333;
 }
 
 .doctor-card p {
@@ -180,7 +179,7 @@ body {
 }
 
 .servicios-solicitados {
-    margin-top: 30px;
+  margin-top: 30px;
   padding: 40px 20px;
   background-color: #e9f2f9;
   text-align: center;
@@ -190,7 +189,6 @@ body {
 .servicios-solicitados h2 {
   font-size: 30px;
   margin-bottom: 30px;
-  color: #1d3557;
 }
 
 .servicios-grid {
@@ -219,7 +217,6 @@ body {
 
 .servicio-card h3 {
   font-size: 20px;
-  color: #2a2a2a;
   margin-bottom: 8px;
 }
 
@@ -255,7 +252,9 @@ body {
   margin: auto;
 }
 
-.footer-info, .footer-links, .footer-social {
+.footer-info,
+.footer-links,
+.footer-social {
   flex: 1 1 250px;
 }
 
@@ -263,7 +262,6 @@ body {
 .footer-links h4,
 .footer-social h4 {
   margin-bottom: 10px;
-  color: #f1f1f1;
 }
 
 .footer-links ul {
@@ -307,123 +305,119 @@ body {
   color: #aaa;
 }
 
-  /* OTROS COMPONENTES */
-  .newsletter {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid #81c784;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .newsletter form {
-    display: flex;
-    width: 100%;
-  }
-  
-  input[type="email"] {
-    padding: 8px;
-    border: 1px solid #81c784;
-    border-radius: 5px;
-    flex: 1;
-  }
-  
-  .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .modal-content {
-    background-color: #f7efef;
-    padding: 20px;
-    border-radius: 8px;
-    text-align: center;
-    width: 300px;
-  }
-  
-  .close {
-    float: right;
-    font-size: 18px;
-    cursor: pointer;
-    color: var(--dark-color);
-  }
-  
-  .close:hover {
-    color: #888;
-  }
-  
-  .faq-item {
-    cursor: pointer;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #e8f5e9;
-    transition: background-color 0.3s;
-  }
-  
-  .faq-item:hover {
-    background-color: var(--light-color);
-  }
-  
-  .faq-answer {
-    display: none;
-    padding-top: 5px;
-    color: var(--primary-color);
-  }
-  
-  .taco li {
-    cursor: pointer;
-    padding: 8px;
-    border-bottom: 1px solid #e0e0e0;
-    transition: background-color 0.3s;
-  }
-  
-  .taco li:hover {
-    background-color: #e0f7fa;
-  }
-  
-  .team-member h3 {
-    margin: 0;
-    color: var(--primary-color);
-  }
-  
-  .team-member p {
-    margin: 5px 0;
-    color: #616161;
-  }
-  
-  .jero article {
-    border-bottom: 1px solid #e0e0e0;
-    padding: 10px 0;
-  }
-  
-  .jero article h3 {
-    color: var(--primary-color);
-  }
-  
-  .jero article a {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  .jero article a:hover {
-    text-decoration: underline;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
+/* OTROS COMPONENTES */
 
-  
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #81c784;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  margin: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter form {
+  display: flex;
+  width: 100%;
+}
+
+input[type="email"] {
+  padding: 8px;
+  border: 1px solid #81c784;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #f7efef;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+}
+
+.close {
+  float: right;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--dark-color);
+}
+
+.close:hover {
+  color: #888;
+}
+
+.faq-item {
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e8f5e9;
+  transition: background-color 0.3s;
+}
+
+.faq-item:hover {
+  background-color: var(--light-color);
+}
+
+.faq-answer {
+  display: none;
+  padding-top: 5px;
+  color: var(--primary-color);
+}
+
+.taco li {
+  cursor: pointer;
+  padding: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.3s;
+}
+
+.taco li:hover {
+  background-color: #e0f7fa;
+}
+
+.team-member h3 {
+  margin: 0;
+}
+
+.team-member p {
+  margin: 5px 0;
+  color: #616161;
+}
+
+.jero article {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 0;
+}
+
+.jero article h3 {
+  margin-bottom: 5px;
+}
+
+.jero article a {
+  text-decoration: none;
+}
+
+.jero article a:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
