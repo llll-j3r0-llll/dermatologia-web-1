@@ -8,25 +8,7 @@
     {
         "image": "http://localhost:5173/assets/css/images%20inicio/carrusel%206.avif"
     },
-    {
-    "imagen": "http://localhost:5175/assets/css/imagenes/tratamiento%20capilar.jpg",
-    "services": "tratamiento capilar",
-    "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
-    "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
-  },
-    {
-    "imagen": "http://localhost:5175/assets/css/imagenes/tratamiento%20capilar.jpg",
-    "services": "tratamiento capilar",
-    "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
-    "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
-  },
-    {
-    "imagen": "http://localhost:5175/assets/css/imagenes/tratamiento%20capilar.jpg",
-    "services": "tratamiento capilar",
-    "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
-    "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
-  },
-      {
+          {
         "image": "http://localhost:5173/assets/css/images%20inicio/equipo%20de%20trabajo.webp",
         "name":"Dr juan Perez",
         "tecnical":"Dermatologo",
@@ -61,6 +43,27 @@
         "name":"Dra. Natalia Herrera",
         "tecnical":"Especialista en Alopecia",
         "description": "Tratamiento de la caída de cabello."
-    }
+    },
+    {
+    "image": "http://localhost:5173/assets/css/images%20inicio/equipo%20de%20trabajo.webp"
+    },
+    {
+    "imagen": "http://localhost:5175/assets/css/imagenes/tratamiento%20capilar.jpg",
+    "services": "tratamiento capilar",
+    "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
+    "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
+  },
+    {
+    "imagen": "http://localhost:5175/assets/css/imagenes/tratamiento%20capilar.jpg",
+    "services": "tratamiento capilar",
+    "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
+    "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
+  },
+    {
+    "imagen": "http://localhost:5175/assets/css/imagenes/tratamiento%20capilar.jpg",
+    "services": "tratamiento capilar",
+    "description": "Recuperación del cuero cabelludo y fortalecimiento capilar.",
+    "testimony": "Recuperé la confianza al ver que mi cabello volvía a crecer. – Laura S."
+  }
 
 ]
