@@ -14,7 +14,7 @@ async function getData() {
 }
 
 // Function to render the articles
-async function medicals() {
+async function nosotros() {
     const articles = await getData();
     const container = document.querySelector('.card-container');
     
@@ -23,7 +23,7 @@ async function medicals() {
         return;
     }
 
-    if (articles.length === 0) {
+    if (nosotros.length === 0) {
         container.innerHTML = `
             <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
                 <p>No articles found.</p>
@@ -32,15 +32,15 @@ async function medicals() {
         return;
     }
 
-    container.innerHTML = articles.map(medical => `
+    container.innerHTML = nosotros.map(nosotros => `
        <div class="card">
       <img src="assets/css/imagenes-nosotros/juan_perez.jpg" alt="Dr. Juan Pérez"/>
       <h3>Dr. Juan Pérez</h3>
       <p>Dermatólogo</p>
-      <p>${medical.description1}</p>
+      <p>${nosotros.description1}</p>
     </div>
     `).join('');
 }
 
 // Initialize when the DOM is ready
-document.addEventListener('DOMContentLoaded', medicals);
+document.addEventListener('DOMContentLoaded', nosotros);
