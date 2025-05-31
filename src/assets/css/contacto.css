@@ -5,9 +5,9 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f9f9f9;
-  color: #1d3557;
+  color: #333; /* Texto general en negro */
   display: flex;
 }
 
@@ -65,15 +65,18 @@ body {
 .hero h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
+  color: #00695c; 
 }
 
 .hero p {
   font-size: 1.2em;
+  color: #333; 
 }
+
 .contacto {
-  padding: 40px 40px 40px 260px; /* Espacio desde el menú lateral */
+  padding: 40px 40px 40px 260px; 
   background-color: #eaf6ff;
-  color: #003366;
+  color: #333; 
   min-height: 100vh;
   box-sizing: border-box;
 }
@@ -82,6 +85,7 @@ body {
   text-align: center;
   font-size: 2em;
   margin-bottom: 40px;
+  color: #00695c; 
 }
 
 .contenedor-contacto {
@@ -97,7 +101,8 @@ body {
   padding: 25px;
   background: white;
   border-radius: 15px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  box-shadow: 0 0 15px #333(0,0,0,0.1);
+  color: #333; 
 }
 
 .formulario-contacto input,
@@ -107,12 +112,13 @@ body {
   margin: 10px 0 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  color: #333; 
 }
 
 .formulario-contacto button {
   width: 100%;
   padding: 12px;
-  background-color: #0077cc;
+  background-color: #00695c;
   color: white;
   border: none;
   border-radius: 6px;
@@ -121,16 +127,16 @@ body {
 }
 
 .formulario-contacto button:hover {
-  background-color: #005fa3;
+  background-color:#00695c;
 }
 
 .info-contacto {
   background-color: #ffffff;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  color: #003366;
-  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 0 10px #333(0,0,0,0.1);
+  color: #333; 
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -140,7 +146,7 @@ body {
 .info-contacto h3 {
   font-size: 1.5em;
   margin-bottom: 15px;
-  color: #003366;
+  color: #00695c; 
 }
 
 .info-contacto p {
@@ -160,13 +166,13 @@ body {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #0077cc;
+  color: #00695c;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
 .redes-sociales a:hover {
-  color: #005fa3;
+  color: #00695c;
 }
 
 .redes-sociales a img {
@@ -176,3 +182,14 @@ body {
   vertical-align: middle;
 }
 
+
+h1, h2, h3, h4, h5, h6,
+strong, b {
+  color: #00695c;
+}
+
+
+body, p, span, label, input, textarea {
+  color:#333
+
+  }
