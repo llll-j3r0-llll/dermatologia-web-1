@@ -34,6 +34,26 @@
         "name":"Dra. Natalia Herrera",
         "tecnical":"Especialista en Alopecia",
         "description": "Tratamiento de la caída de cabello."
+    }, 
+
+        {
+        "image": "imagen  banner",
+        "name":"banner",
+        "title":"sobre nosotros",
+        "description": "compromrtidos con tu salud y bienestar dermatologico"
+    },
+        {
+        "name":"contenedor",
+        "title":"¿Quiénes Somos?",
+        "image": "equipo-medico",
+        "description": "En Clínica Dermosalud, somos un equipo de profesionales apasionados por la salud y el cuidado de la piel. Con años de experiencia en dermatología clínica, estética y quirúrgica, trabajamos con tecnología de punta y un enfoque humano para ofrecer soluciones reales y personalizadas a nuestros pacientes."
+    },
+    
+          {
+        "name":"contenedor",
+        "title":"¿Por qué elegirnos?",
+        "image": "especialista.jpg",
+        "description": "Contamos con dermatólogos certificados y personal altamente capacitado en tratamientos de última generación."
     }
 
 ]
