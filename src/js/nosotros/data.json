@@ -1,0 +1,80 @@
+[   
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/banner%202.jpg",
+        "name":"banner",
+        "title":"sobre nosotros",
+        "description": "compromrtidos con tu salud y bienestar dermatologico"
+    },
+    {
+        "name":"contenedor",
+        "title":"¿Quiénes Somos?",
+        "image": "http://localhost:5173/assets/css/images%20inicio/equipo%20de%20trabajo.webp",
+        "description": "En Clínica Dermosalud, somos un equipo de profesionales apasionados por la salud y el cuidado de la piel. Con años de experiencia en dermatología clínica, estética y quirúrgica, trabajamos con tecnología de punta y un enfoque humano para ofrecer soluciones reales y personalizadas a nuestros pacientes."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/images%20inicio/equipo%20de%20trabajo.webp",
+        "name":"Dr juan Perez",
+        "tecnical":"Dermatologo",
+        "description": "Especialista en acné y tratamientos láser."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/Ana_Torres.jpg ",
+        "name":"Dra. Ana Torres",
+        "tecnical":"Cirujana Plástica",
+        "description": "Experta en rejuvenecimiento facial."
+    },
+     {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/andres2.jpg",
+        "name":"Dr. Carlos Ruiz",
+        "tecnical":"Dermatólogo Pediátrico",
+        "description": "..Atiende a niños y adolescentes."
+    },
+     {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/laura2.jpg",
+        "name":"Dra. Laura Díaz",
+        "tecnical":"Oncóloga Dermatológica",
+        "description": "Diagnóstico de cáncer de piel."
+    },
+     {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/felipe2.jpg",
+        "name":"Dr. Felipe Torres",
+        "tecnical":"Cosmetólogo Clínico",
+        "description": "Tratamientos estéticos no invasivos."
+    },
+     {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/felipe2.jpg",
+        "name":"Dra. Natalia Herrera",
+        "tecnical":"Especialista en Alopecia",
+        "description": "Tratamiento de la caída de cabello."
+    }, 
+    {
+        "image": "http://localhost:5173/assets/css/images%20inicio/equipo%20de%20trabajo.webp",
+        "title":"Equipo Especializado",
+        "description": "Contamos con dermatólogos certificados y personal altamente capacitado en tratamientos de última generación."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/experiensia.jpg",
+        "title":"Experiencia Comprobada",
+        "description": "Más de 10 años ofreciendo soluciones dermatológicas eficaces y seguras para nuestros pacientes."
+    },
+        {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/atencion1.jpg",
+        "title":"Atención Humana",
+        "description": "Brindamos un trato cercano, empático y respetuoso para que cada visita sea una experiencia positiva."
+    },
+            {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/confiable1.jpg",
+        "title":"Instalaciones Confortables",
+        "description": "Ambientes modernos y agradables pensados para tu bienestar durante la atención médica."
+    },        {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/tecnologia_avanzada.jpg",
+        "title":"Tecnología Avanzada",
+        "description": "Disponemos de equipos modernos para diagnósticos precisos y terapias eficaces."
+    },        {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/cuidado_personalizado.jpg",
+        "title":"Cuidado personalizado",
+        "description": "Ofrecemos tratamientos diseñados especialmente para cada tipo de piel y necesidad médica."
+    }
+
+
+]
