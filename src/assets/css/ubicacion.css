@@ -134,14 +134,17 @@ body {
   color: #00695c;
 }
 
+#slides {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente si hay altura */
+}
+
 #slides img {
-
-  width: 402px ;
-  margin-bottom: 30px;
-  height:360px; /* o la altura que quieras */
+  width: 402px;
+  height: 360px;
   border-radius: 10px;
-
-} 
+}
 
 .footer {
   background-color: #333;

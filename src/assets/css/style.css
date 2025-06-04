@@ -77,12 +77,18 @@ h1, h2, h3 {
   font-size: 1.2em;
 }
 
+#slides {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;     /* Centra verticalmente si hay altura */
+}
+
 #slides img {
   width: 402px;
   height: 360px;
   border-radius: 10px;
-  align-items: center;
 }
+
 
 .recuadro-texto {
   border-radius: 15px;
