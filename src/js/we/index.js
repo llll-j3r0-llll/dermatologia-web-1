@@ -1,6 +1,6 @@
 async function getData() {
     try {
-        const response = await fetch('/data.json');
+        const response = await fetch('/data/medicos.json'); 
         if (!response.ok) {
             throw new Error(`Error loading data: ${response.status} ${response.statusText}`);
         }
@@ -14,8 +14,8 @@ async function getData() {
 }
 
 // Function to render the articles
-async function nosotros() {
-    const articles = await getData();
+async function medicals() {
+    const doctors = await getData();
     const container = document.querySelector('.card-container');
     
     if (!container) {
@@ -23,7 +23,7 @@ async function nosotros() {
         return;
     }
 
-    if (nosotros.length === 0) {
+    if (doctors.length === 0) {
         container.innerHTML = `
             <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
                 <p>No articles found.</p>
@@ -32,15 +32,16 @@ async function nosotros() {
         return;
     }
 
-    container.innerHTML = nosotros.map(nosotros => `
+
+    container.innerHTML = doctors.map(medical => `
        <div class="card">
-      <img src="assets/css/imagenes-nosotros/juan_perez.jpg" alt="Dr. Juan Pérez"/>
-      <h3>Dr. Juan Pérez</h3>
-      <p>Dermatólogo</p>
-      <p>${nosotros.description1}</p>
+      <img src="${medical.image}" alt="${medical.name}"/>
+      <h3>${medical.name}</h3>
+      <p>${medical.technical}</p>
+      <p>${medical.description}</p>
     </div>
     `).join('');
 }
 
 // Initialize when the DOM is ready
-document.addEventListener('DOMContentLoaded', nosotros);
+document.addEventListener('DOMContentLoaded', medicals);

@@ -15,7 +15,7 @@ async function getData() {
 
 // Function to render the articles
 async function medicals() {
-    const articles = await getData();
+    const doctors = await getData();
     const container = document.querySelector('.card-container');
     
     if (!container) {
@@ -23,7 +23,7 @@ async function medicals() {
         return;
     }
 
-    if (articles.length === 0) {
+    if (doctors.length === 0) {
         container.innerHTML = `
             <div class="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
                 <p>No articles found.</p>
@@ -32,11 +32,12 @@ async function medicals() {
         return;
     }
 
-    container.innerHTML = articles.map(medical => `
+
+    container.innerHTML = doctors.map(medical => `
        <div class="card">
-      <img src="assets/css/imagenes-nosotros/juan_perez.jpg" alt="Dr. Juan Pérez"/>
-      <h3>Dr. Juan Pérez</h3>
-      <p>Dermatólogo</p>
+      <img src="${medical.assets/images.about.juan_perez.jpg}" alt="${medical.Dr. Juan_Pérez}"/>
+      <h3>${medical.Dr. Juan_Pérez}</h3>
+      <p>${medical.Dermatólogo}</p>
       <p>${medical.description1}</p>
     </div>
     `).join('');
