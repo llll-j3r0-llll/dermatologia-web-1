@@ -1,0 +1,39 @@
+[
+    {
+      "titulo": "Tratamiento para Acné",
+      "imagen": "assets/images/services/acne.jpg",
+      "alt": "Tratamiento para Acné",
+      "descripcion": "En nuestro consultorio evaluamos tu tipo de piel y diseñamos un plan clínico para controlar tu acné y evitar nuevas lesiones, con resultados visibles en los 2 primeros meses."
+    },
+    {
+      "titulo": "Tratamiento dermatitis atópica",
+      "imagen": "assets/images/services/dermatitis.jpg",
+      "alt": "Tratamiento dermatitis atópica",
+      "descripcion": "Realizamos evaluación dermatológica personalizada, diseñamos un plan que incluye cuidados tópicos, seguimiento continuo y orientación sobre hábitos saludables para la piel. Para controlar brotes y reducir el malestar."
+    },
+    {
+      "titulo": "Tratamiento estéticos",
+      "imagen": "assets/images/services/estetica.jpg",
+      "alt": "Tratamiento estéticos",
+      "descripcion": "En nuestra clínica ofrecemos procedimientos dermatológicos estéticos seguros y efectivos para ayudarte a lucir una piel más joven, fresca y radiante. Nuestros tratamientos incluyen: Toxina botulínica (Botox), rellenos dérmicos y microdermoabrasión."
+    },
+    {
+      "titulo": "Tratamiento anti-envejecimiento",
+      "imagen": "assets/images/services/antienvejecimiento.jpg",
+      "alt": "Tratamiento anti-envejecimiento",
+      "descripcion": "Revitaliza tu piel y restaura tu juventud, con la ayuda de tecnologías avanzadas como el Botox, rellenos dérmicos y tratamientos con láser, eliminamos arrugas, líneas finas y manchas, dejándote con una piel más firme, luminosa y rejuvenecida."
+    },
+    {
+      "titulo": "Tratamiento de manchas y despigmentación",
+      "imagen": "assets/images/services/despigmentacion.jpg",
+      "alt": "Tratamiento de manchas y despigmentación",
+      "descripcion": "En nuestra clínica ofrecemos soluciones efectivas para reducir y eliminar manchas oscuras, hiperpigmentaciones y problemas de despigmentación como el melasma. Utilizamos Peelings químicos y terapias con láser."
+    },
+    {
+      "titulo": "Terapia Capilar",
+      "imagen": "assets/images/services/terapia capilar.jpg",
+      "alt": "Terapia Capilar",
+      "descripcion": "Nuestro tratamiento capilar está formulado para revitalizar el cuero cabelludo y promover el crecimiento saludable del cabello de manera natural y eficaz. Utilizamos una combinación de extractos botánicos, nutrientes esenciales y tecnología avanzada."
+    }
+  ]
+  

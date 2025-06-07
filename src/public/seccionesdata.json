@@ -1,0 +1,32 @@
+[
+    {
+        "image": "http://localhost:5173/assets/css/images%20inicio/equipo%20de%20trabajo.webp",
+        "title": "Equipo Especializado",
+        "description": "Contamos con dermatólogos certificados y personal altamente capacitado en tratamientos de última generación."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/experiensia.jpg",
+        "title": "Experiencia Comprobada",
+        "description": "Más de 10 años ofreciendo soluciones dermatológicas eficaces y seguras para nuestros pacientes."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/atencion1.jpg",
+        "title": "Atención Humana",
+        "description": "Brindamos un trato cercano, empático y respetuoso para que cada visita sea una experiencia positiva."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/confiable1.jpg",
+        "title": "Instalaciones Confortables",
+        "description": "Ambientes modernos y agradables pensados para tu bienestar durante la atención médica."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/tecnologia_avanzada.jpg",
+        "title": "Tecnología Avanzada",
+        "description": "Disponemos de equipos modernos para diagnósticos precisos y terapias eficaces."
+    },
+    {
+        "image": "http://localhost:5173/assets/css/imagenes-nosotros/cuidado_personalizado.jpg",
+        "title": "Cuidado personalizado",
+        "description": "Ofrecemos tratamientos diseñados especialmente para cada tipo de piel y necesidad médica."
+    }
+]
