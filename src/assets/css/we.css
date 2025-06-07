@@ -197,7 +197,7 @@ h1, h2, h3 {
 
 /* SECCIÓN QUIÉNES SOMOS */
 .quienes-somos {
-  background-color: #e3f2fd;
+  background-color:  #f0f4f8;
   padding: 50px 20px;
   border-radius: 16px;
   max-width: 1000px;
@@ -265,7 +265,7 @@ h1, h2, h3 {
   font-size: 2.5rem;
   margin-bottom: 40px;
   font-weight: 600;
-  border-bottom: 2px solid #b2dfdb;
+  border-bottom: 2px solid  #f4fbf9;
   display: inline-block;
   padding-bottom: 10px;
 }
