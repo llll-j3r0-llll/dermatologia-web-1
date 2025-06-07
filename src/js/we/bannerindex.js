@@ -1,7 +1,7 @@
 async function loadBanner() {
     try {
       // Ruta a JSON en carpeta pública
-      const response = await fetch('/bannerdata.json');
+      const response = await fetch('public/we/bannerdata.json');
       if (!response.ok) {
         throw new Error(`Error loading banner: ${response.status} ${response.statusText}`);
       }

@@ -2,7 +2,7 @@
 
 async function obtenerServicios() {
     try {
-      const response = await fetch("serviciosolicitadosdata.json");
+      const response = await fetch("public/initiation/serviciosolicitadosdata.json");
       if (!response.ok) {
         throw new Error(`Error al cargar los datos: ${response.status} ${response.statusText}`);
       }

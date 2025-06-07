@@ -1,6 +1,6 @@
 async function obtenerEquipo() {
     try {
-      const response = await fetch('/equipodata.json'); // ✅ Se asume que está en `public/`
+      const response = await fetch('public/initiation/equipodata.json'); // ✅ Se asume que está en `public/`
       if (!response.ok) {
         throw new Error(`Error al cargar datos: ${response.status} ${response.statusText}`);
       }

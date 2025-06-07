@@ -1,6 +1,7 @@
 async function obtenerCarrusel() {
     try {
-      const response = await fetch('/carruseldata.json'); // ✅ Se sirve desde public/
+      const response = await fetch('public/initiation/carruseldata.json');
+       // ✅ Se sirve desde public/
       if (!response.ok) {
         throw new Error(`Error al cargar datos: ${response.status} ${response.statusText}`);
       }

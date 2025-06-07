@@ -1,6 +1,6 @@
 async function cargarServicios() {
     try {
-      const response = await fetch('/serviciosdata.json'); // Ruta relativa desde el servidor (carpeta `public`)
+      const response = await fetch('public/services/nuestrosserviciosdata.json'); // Ruta relativa desde el servidor (carpeta `public`)
       const servicios = await response.json();
   
       const contenedor = document.querySelector('.servicios-lista');

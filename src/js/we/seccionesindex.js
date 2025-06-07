@@ -1,6 +1,6 @@
 async function cargarPorqueElegirnos() {
     try {
-      const response = await fetch('/porqueElegirnos.json'); // Ajusta si está en otra ruta
+      const response = await fetch('/public/we/seccionesdata.json'); // Ajusta si está en otra ruta
       if (!response.ok) {
         throw new Error(`Error al cargar datos: ${response.status} ${response.statusText}`);
       }
@@ -31,7 +31,9 @@ async function cargarPorqueElegirnos() {
       });
   
     } catch (error) {
-      console.error('Error al cargar sección ¿Por qué elegirnos?:', error.message);
+console.error('Error al cargar sección ¿Por qué elegirnos?:', error);
+
+      return;
     }
   }
   

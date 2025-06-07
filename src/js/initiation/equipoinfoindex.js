@@ -1,6 +1,6 @@
 async function obtenerInfoEquipo() {
     try {
-      const response = await fetch('/equipoinfodata.json'); // Se sirve desde /public/
+      const response = await fetch('public/initiation/equipoinfodata.json'); // Se sirve desde /public/
       if (!response.ok) {
         throw new Error(`Error al cargar los datos: ${response.status} ${response.statusText}`);
       }

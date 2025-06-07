@@ -1,6 +1,6 @@
 async function getData() {
     try {
-        const response = await fetch('/data/medicos.json'); 
+        const response = await fetch('public/we/medicosdata.json'); 
         if (!response.ok) {
             throw new Error(`Error loading data: ${response.status} ${response.statusText}`);
         }
