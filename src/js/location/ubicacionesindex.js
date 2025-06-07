@@ -1,4 +1,4 @@
-// Función para obtener los datos desde el JSON
+// Función para obtener los datos desde el JSON GET (leer)
 async function cargarUbicaciones() {
     try {
       const response = await fetch('/ubicacionesdata.json');
@@ -12,7 +12,7 @@ async function cargarUbicaciones() {
       return [];
     }
   }
-  
+    
   // Función para renderizar las ubicaciones
   async function renderUbicaciones() {
     const ubicaciones = await cargarUbicaciones();
