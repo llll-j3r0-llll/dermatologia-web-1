@@ -1,6 +1,6 @@
 async function cargarQuienesSomos() {
     try {
-      const response = await fetch('public/we/json/equipoinfo2.json');
+      const response = await fetch('public/we/equipoinfo2data.json');
       const data = await response.json();
   
       const seccion = document.querySelector('.quienes-somos');

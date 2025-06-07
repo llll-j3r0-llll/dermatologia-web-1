@@ -1,7 +1,7 @@
 // Función para obtener los datos desde el JSON GET (leer)
 async function cargarUbicaciones() {
     try {
-      const response = await fetch('/ubicacionesdata.json');
+      const response = await fetch('public/location/ubicacionesdata.json');
       if (!response.ok) {
         throw new Error(`Error al cargar los datos: ${response.statusText}`);
       }
